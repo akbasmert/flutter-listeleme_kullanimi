@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:listeleme_kullanimi/filmler_sayfa.dart';
 import 'package:listeleme_kullanimi/sabit_liste_sayfa.dart';
+import 'package:listeleme_kullanimi/sayfa_alt_yapilari/tab_sayfa.dart';
+import 'package:listeleme_kullanimi/yemekler_sayfa.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +20,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: SabitListeSayfa(),
+      home: TabSayfa()//FilmlerSayfa()//YemeklerSayfa() //SabitListeSayfa(),
     );
   }
 }
