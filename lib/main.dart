@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:listeleme_kullanimi/filmler_sayfa.dart';
+import 'package:listeleme_kullanimi/odev_5/hesap_makinesi.dart';
 import 'package:listeleme_kullanimi/sabit_liste_sayfa.dart';
 import 'package:listeleme_kullanimi/sayfa_alt_yapilari/tab_sayfa.dart';
 import 'package:listeleme_kullanimi/yemekler_sayfa.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: TabSayfa()//FilmlerSayfa()//YemeklerSayfa() //SabitListeSayfa(),
+      home: HesapMakinesi()//TabSayfa()//FilmlerSayfa()//YemeklerSayfa() //SabitListeSayfa(),
     );
   }
 }
